@@ -30,7 +30,63 @@
 }
 </script>
 
-<style>
+<style> /* BANNER CON EFECTO DE BRILLO */
+.banner-abogados {
+  background: linear-gradient(90deg, #1a1a1a, #2c2c2c, #1a1a1a);
+  color: #b59656;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #b59656;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-abogados::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(181, 150, 86, 0.4), transparent);
+  animation: brillo 4s infinite;
+}
+
+@keyframes brillo {
+  0% { left: -100%; }
+  20% { left: 100%; }
+  100% { left: 100%; }
+}
+
+/* BOTÓN DE WHATSAPP FLOTANTE */
+.wsp-flotante {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 35px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.wsp-flotante:hover {
+  transform: scale(1.1);
+}
+
 body {
   font-family: Georgia, serif;
   margin: 0;
@@ -216,5 +272,11 @@ iframe {
 
 </section>
 
-</body>
-</html>
+</body><div class="banner-abogados">
+  CRUZ RODRÍGUEZ ABOGADOS
+</div>
+
+</html><a href="https://wa.me/525514861348" class="wsp-flotante" target="_blank" title="Atención Penal 24/7">
+  <span style="font-family: Arial, sans-serif; font-weight: bold;">W</span>
+</a>
+
