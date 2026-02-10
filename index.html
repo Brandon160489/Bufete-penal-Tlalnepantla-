@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Cruz Rodríguez Abogados | Penal, Civil y Familiar | CDMX y Estado de México</title>
-<meta name="description" content="Cruz Rodríguez Abogados. Defensa penal 24/7, civil y familiar en CDMX y Estado de México. Honorarios flexibles, pagos diferidos y atención inmediata por WhatsApp." />
+<title>Cruz Rodríguez Abogados | Penal, Civil y Familiar | Coacalco, Tlalnepantla, CDMX y Edomex</title>
+<meta name="description" content="Cruz Rodríguez Abogados. Defensa penal estratégica 24/7, civil y familiar en Coacalco, Tlalnepantla, CDMX y Estado de México. Honorarios flexibles, pagos diferidos y atención inmediata por WhatsApp." />
 
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YE43SG95J"></script>
@@ -16,15 +16,15 @@
 
   document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('a[href^="https://wa.me"]').forEach(btn => {
-      btn.addEventListener('click', () => gtag('event','click_whatsapp'));
+      btn.addEventListener('click', () => gtag('event','click_whatsapp',{event_category:'Contacto'}));
     });
     document.querySelectorAll('a[href^="tel:"]').forEach(btn => {
-      btn.addEventListener('click', () => gtag('event','click_llamada'));
+      btn.addEventListener('click', () => gtag('event','click_llamada',{event_category:'Contacto'}));
     });
   });
 </script>
 
-<!-- Schema -->
+<!-- Schema LegalService -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -38,94 +38,78 @@
     "addressCountry": "MX"
   },
   "telephone": "+525514861348",
-  "areaServed": ["CDMX","Estado de México"],
-  "description": "Despacho jurídico en materia penal, civil y familiar. Atención 24/7.",
+  "areaServed": ["Coacalco","Tlalnepantla","CDMX","Estado de México"],
+  "description": "Despacho jurídico en materia penal, civil y familiar con atención 24/7, honorarios flexibles y apoyo a personas en situación vulnerable.",
   "priceRange": "$$"
+}
+</script>
+
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[{
+   "@type":"Question",
+   "name":"¿Qué hacer si detienen a un familiar en Tlalnepantla o CDMX?",
+   "acceptedAnswer":{"@type":"Answer","text":"Contacta de inmediato a un abogado penalista 24/7 para revisar la legalidad de la detención y asistir a la audiencia inicial."}
+ },{
+   "@type":"Question",
+   "name":"¿Cuánto tarda un divorcio incausado en Coacalco?",
+   "acceptedAnswer":{"@type":"Answer","text":"De 2 a 4 meses, dependiendo del juzgado y acuerdos entre las partes."}
+ },{
+   "@type":"Question",
+   "name":"¿Manejan facilidades de pago?",
+   "acceptedAnswer":{"@type":"Answer","text":"Sí, ofrecemos planes de pago, pagos diferidos y esquemas por etapas del procedimiento."}
+ }]
 }
 </script>
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <style>
-:root{
-  --gold:#e6c77a;
-  --gold2:#f3de9c;
-  --black:#070707;
-  --card:#0f0f0f;
-  --muted:#cfcfcf;
-  --accent:#25D366;
-}
+:root{--gold:#e6c77a;--gold2:#f3de9c;--black:#070707;--card:#0f0f0f;--muted:#cfcfcf;--accent:#25D366;}
 *{box-sizing:border-box}
-body{
-  margin:0;
-  background: radial-gradient(1000px 500px at 50% -10%, #1b1b1b 0%, #070707 60%);
-  color:#f5f5f5;
-  font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial;
-}
-.top-banner{
-  text-align:center;padding:10px;
-  background:linear-gradient(90deg,var(--gold),var(--gold2));
-  color:#0b0b0b;font-weight:800;letter-spacing:.3em;
-}
+body{margin:0;background:radial-gradient(1000px 500px at 50% -10%, #1b1b1b 0%, #070707 60%);color:#f5f5f5;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial}
+.top-banner{text-align:center;padding:10px;background:linear-gradient(90deg,var(--gold),var(--gold2));color:#0b0b0b;font-weight:800;letter-spacing:.3em}
 .brand{text-align:center;margin:20px 0}
-.brand h1{
-  font-family:"Playfair Display",serif;
-  color:var(--gold);letter-spacing:.14em;font-size:36px;margin:6px 0;
-}
+.brand h1{font-family:"Playfair Display",serif;color:var(--gold);letter-spacing:.14em;font-size:36px;margin:6px 0}
 .brand .sub{color:#e8e8e8;letter-spacing:.22em;font-weight:600}
 
-.hero{
-  max-width:1100px;margin:18px auto;border-radius:20px;
-  background:url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1600&auto=format&fit=crop") center/cover;
-  box-shadow:0 25px 60px rgba(0,0,0,.7);overflow:hidden;
-}
-.hero .overlay{
-  background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.65));
-  padding:40px 24px;min-height:340px;display:flex;flex-direction:column;justify-content:flex-end
-}
-.hero h2{font-family:"Playfair Display";font-size:34px;margin:0 0 8px;color:#fff}
-.hero p{color:#f1f1f1;font-weight:500}
+.hero{max-width:1100px;margin:18px auto;border-radius:20px;background:url("https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1600&auto=format&fit=crop") center/cover;box-shadow:0 25px 60px rgba(0,0,0,.7);overflow:hidden}
+.hero .overlay{background:linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.65));padding:40px 24px;min-height:340px;display:flex;flex-direction:column;justify-content:flex-end}
+.hero h2{font-family:"Playfair Display";font-size:34px;margin:0 0 8px}
+.hero p{color:#f1f1f1}
 .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
-.btn{
-  padding:14px 18px;border-radius:12px;font-weight:700;border:none;cursor:pointer
-}
+.btn{padding:14px 18px;border-radius:12px;font-weight:700;border:none;cursor:pointer}
 .btn-wsp{background:var(--accent);color:#06301a}
 .btn-call{background:#151515;color:#fff;border:1px solid #333}
 
 .section{max-width:1100px;margin:auto;padding:28px 16px}
 .h2{font-family:"Playfair Display";color:var(--gold);letter-spacing:.1em;margin:24px 0 10px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
-.card{
-  background:linear-gradient(180deg,#101010,#0a0a0a);
-  border:1px solid #222;border-radius:16px;padding:18px;
-  box-shadow:0 12px 30px rgba(0,0,0,.6)
-}
+.card{background:linear-gradient(180deg,#101010,#0a0a0a);border:1px solid #222;border-radius:16px;padding:18px;box-shadow:0 12px 30px rgba(0,0,0,.6)}
 .card h3{color:var(--gold2)}
-.card p, .card li{color:#f0f0f0;line-height:1.6}
+.card p,.card li{color:#f0f0f0;line-height:1.6}
+
+.video-wrap{background:#0f0f0f;border:1px solid #222;border-radius:16px;overflow:hidden}
+.video-wrap iframe{width:100%;height:320px;border:0}
+
+.contact{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}
+@media(max-width:860px){.contact{grid-template-columns:1fr}}
 
 .map iframe{width:100%;height:320px;border:0;border-radius:16px}
-.map-cta{
-  margin-top:10px;display:inline-block;background:#1f1f1f;
-  color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid #333
-}
+.map-cta{margin-top:10px;display:inline-block;background:#1f1f1f;color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:700;border:1px solid #333}
 
-.faq-cta{
-  display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;
-  background:var(--accent);color:#062c16;text-decoration:none;font-weight:700
-}
+.faq-cta{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:10px;background:var(--accent);color:#062c16;text-decoration:none;font-weight:700}
 
-.fab{
-  position:fixed;right:16px;bottom:16px;background:var(--accent);
-  width:58px;height:58px;border-radius:50%;display:grid;place-items:center;
-  box-shadow:0 10px 25px rgba(0,0,0,.6);z-index:99;color:#06301a;font-weight:900;text-decoration:none
-}
+.fab{position:fixed;right:16px;bottom:16px;background:var(--accent);width:58px;height:58px;border-radius:50%;display:grid;place-items:center;box-shadow:0 10px 25px rgba(0,0,0,.6);z-index:99;color:#06301a;font-weight:900;text-decoration:none}
 </style>
 </head>
 
 <body>
 
 <div class="top-banner">CRUZ RODRÍGUEZ ABOGADOS</div>
-
 <div class="brand">
   <h1>CRUZ RODRÍGUEZ ABOGADOS</h1>
   <div class="sub">Civil • Penal • Familiar</div>
@@ -134,7 +118,7 @@ body{
 <section class="hero">
   <div class="overlay">
     <h2>Defensa jurídica estratégica 24/7</h2>
-    <p>CDMX y Estado de México • Honorarios flexibles • Atención inmediata</p>
+    <p>Coacalco • Tlalnepantla • CDMX • Estado de México | Honorarios flexibles y atención inmediata</p>
     <div class="cta">
       <a href="https://wa.me/525514861348" target="_blank"><button class="btn btn-wsp">WhatsApp ahora</button></a>
       <a href="tel:+525514861348"><button class="btn btn-call">Llamar ahora</button></a>
@@ -143,52 +127,53 @@ body{
 </section>
 
 <section class="section">
-  <div class="h2">Contacto y Ubicación</div>
+  <div class="h2">Servicios Jurídicos</div>
   <div class="cards">
-    <div class="card">
-      <p><strong>Tel/WhatsApp:</strong> +52 55 14 86 13 48</p>
-      <p><strong>Cédula Profesional:</strong> 12680656</p>
-      <p><strong>Cobertura:</strong> CDMX y Estado de México</p>
-      <p><strong>Dirección:</strong> Bosques de Grosellos 1A, Coacalco de Berriozábal, Estado de México</p>
-      <a class="btn btn-wsp" href="https://wa.me/525514861348" target="_blank">Escríbenos por WhatsApp</a>
-    </div>
-    <div class="card map">
-      <iframe 
-        loading="lazy"
-        src="https://www.google.com/maps?q=Bosques%20de%20Grosellos%201A%20Coacalco%20de%20Berrioz%C3%A1bal%20Estado%20de%20M%C3%A9xico&z=18&output=embed">
-      </iframe>
-      <a class="map-cta" target="_blank" href="https://share.google/efoAl5WKX7HaQaORA">📍 Cómo llegar en Google Maps (1 clic)</a>
-    </div>
+    <div class="card"><h3>Derecho Penal</h3><p>Urgencias 24/7, audiencias iniciales, control de detención, amparo, asesoría a víctimas.</p></div>
+    <div class="card"><h3>Derecho Civil</h3><p>Contratos, arrendamiento, cobro de adeudos, daños y perjuicios.</p></div>
+    <div class="card"><h3>Derecho Familiar</h3><p>Divorcio, pensión alimenticia, guarda y custodia, convivencia.</p></div>
   </div>
-</section>
 
-<section class="section">
+  <div class="h2">Facilidades de pago y apoyo social</div>
+  <div class="cards">
+    <div class="card"><h3>Honorarios flexibles</h3><p>Planes de pago, pagos diferidos y esquemas por etapas.</p></div>
+    <div class="card"><h3>Apoyo a personas en situación vulnerable</h3><p>Atención prioritaria a madres solteras y personas en contexto vulnerable.</p></div>
+  </div>
+
+  <div class="h2">Mensaje del Abogado</div>
+  <div class="video-wrap">
+    <iframe src="https://www.youtube.com/embed/5eCArIAZUtk" allowfullscreen loading="lazy"></iframe>
+  </div>
+
   <div class="h2">Casos de Éxito</div>
   <div class="cards">
     <div class="card"><strong>+120 asuntos penales atendidos</strong><p>Defensas exitosas en audiencias iniciales.</p></div>
     <div class="card"><strong>Resultados en materia familiar</strong><p>Convenios favorables en divorcios y pensiones.</p></div>
     <div class="card"><strong>Recuperación patrimonial</strong><p>Cobros y ejecuciones en materia civil.</p></div>
   </div>
-</section>
 
-<section class="section">
+  <div class="h2">Contacto y Ubicación</div>
+  <div class="contact">
+    <div class="card">
+      <p><strong>Tel/WhatsApp:</strong> +52 55 14 86 13 48</p>
+      <p><strong>Cédula Profesional:</strong> 12680656</p>
+      <p><strong>Cobertura:</strong> Coacalco, Tlalnepantla, CDMX y Estado de México</p>
+      <p><strong>Dirección:</strong> Bosques de Grosellos 1A, Coacalco de Berriozábal, Estado de México</p>
+      <a class="btn btn-wsp" href="https://wa.me/525514861348" target="_blank">Escríbenos por WhatsApp</a>
+    </div>
+    <div class="card map">
+      <iframe loading="lazy" src="https://www.google.com/maps?q=Bosques%20de%20Grosellos%201A%20Coacalco%20de%20Berrioz%C3%A1bal%20Estado%20de%20M%C3%A9xico&z=18&output=embed"></iframe>
+      <a class="map-cta" target="_blank" href="https://share.google/efoAl5WKX7HaQaORA">📍 Cómo llegar en Google Maps (1 clic)</a>
+    </div>
+  </div>
+
   <div class="h2">Preguntas Frecuentes</div>
-
-  <div class="card">
-    <strong>¿Qué hacer si detienen a un familiar?</strong>
-    <p>Llama o escribe de inmediato para asesoría penal urgente.</p>
-    <a class="faq-cta" target="_blank" href="https://wa.me/525514861348?text=Detuvieron%20a%20un%20familiar,%20necesito%20ayuda%20urgente">WhatsApp urgente</a>
-  </div>
-
-  <div class="card">
-    <strong>¿Atienden divorcios en Coacalco?</strong>
-    <p>Sí, divorcios exprés y convenios familiares.</p>
-    <a class="faq-cta" target="_blank" href="https://wa.me/525514861348?text=Quiero%20informes%20sobre%20divorcio%20en%20Coacalco">Consultar por WhatsApp</a>
-  </div>
-
+  <div class="card"><strong>¿Qué hacer si detienen a un familiar?</strong><p>Contacto inmediato para asesoría penal 24/7.</p><a class="faq-cta" target="_blank" href="https://wa.me/525514861348?text=Detuvieron%20a%20un%20familiar,%20necesito%20ayuda%20urgente">WhatsApp urgente</a></div>
+  <div class="card"><strong>¿Atienden divorcios en Coacalco?</strong><p>Sí, divorcios exprés y convenios.</p><a class="faq-cta" target="_blank" href="https://wa.me/525514861348?text=Quiero%20informes%20sobre%20divorcio%20en%20Coacalco">Consultar por WhatsApp</a></div>
+  <div class="card"><strong>¿Manejan facilidades de pago?</strong><p>Planes y pagos diferidos según el caso.</p><a class="faq-cta" target="_blank" href="https://wa.me/525514861348?text=Quiero%20conocer%20planes%20de%20pago">Ver planes por WhatsApp</a></div>
 </section>
 
 <a class="fab" href="https://wa.me/525514861348" target="_blank">WA</a>
 
 </body>
-</html>
+  </html>
