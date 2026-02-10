@@ -3,87 +3,81 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Abogado Penalista 24/7 en Coacalco y Tlalnepantla | Cruz Rodríguez Abogados</title>
-<meta name="description" content="Abogado penalista 24/7 en Coacalco y Tlalnepantla. Divorcio exprés en Coacalco. Defensa penal urgente en CDMX y Estado de México. WhatsApp inmediato." />
+<title>Cruz Rodríguez Abogados | Penal, Civil y Familiar en Coacalco y Tlalnepantla</title>
+<meta name="description" content="Cruz Rodríguez Abogados. Abogado penalista 24/7 en Coacalco y Tlalnepantla. Civil y familiar en CDMX y Estado de México. Ubicación en Maps, WhatsApp inmediato y pagos flexibles." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8YE43SG95J"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-8YE43SG95J');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8YE43SG95J');
 
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('a[data-event]').forEach(el => {
-      el.addEventListener('click', () => {
-        gtag('event', el.dataset.event, {
-          event_category: 'Contacto',
-          event_label: window.location.href
-        });
-      });
-    });
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href^="https://wa.me"]').forEach(btn => {
+    btn.addEventListener('click', () => gtag('event','click_whatsapp',{event_category:'Contacto'}));
   });
+  document.querySelectorAll('a[href^="tel:"]').forEach(btn => {
+    btn.addEventListener('click', () => gtag('event','click_llamada',{event_category:'Contacto'}));
+  });
+});
 </script>
 
 <!-- SEO Local Schema -->
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "Cruz Rodríguez Abogados",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Bosques de Grosellos 1A",
-    "addressLocality": "Coacalco de Berriozábal",
-    "addressRegion": "Estado de México",
-    "addressCountry": "MX"
+  "@context":"https://schema.org",
+  "@type":"LegalService",
+  "name":"Cruz Rodríguez Abogados",
+  "address":{
+    "@type":"PostalAddress",
+    "streetAddress":"Bosques de Grosellos 1A",
+    "addressLocality":"Coacalco de Berriozábal",
+    "addressRegion":"Estado de México",
+    "addressCountry":"MX"
   },
-  "telephone": "+525514861348",
-  "areaServed": ["CDMX","Tlalnepantla","Coacalco"],
-  "priceRange": "$$"
-}
-</script>
-
-<!-- FAQ Schema -->
-<script type="application/ld+json">
-{
- "@context": "https://schema.org",
- "@type": "FAQPage",
- "mainEntity": [{
-   "@type": "Question",
-   "name": "¿Cuánto tarda un divorcio incausado en Coacalco?",
-   "acceptedAnswer": { "@type": "Answer", "text": "Un divorcio incausado puede resolverse en 2 a 4 meses dependiendo del juzgado." }
- },{
-   "@type": "Question",
-   "name": "¿Qué hacer si detienen a un familiar en Tlalnepantla?",
-   "acceptedAnswer": { "@type": "Answer", "text": "Contacta de inmediato a un abogado penalista 24/7 para asistir a la audiencia inicial." }
- },{
-   "@type": "Question",
-   "name": "¿Cuánto cuesta un abogado penalista en Coacalco?",
-   "acceptedAnswer": { "@type": "Answer", "text": "Los honorarios varían según el caso. Ofrecemos planes de pago y facilidades según la complejidad y urgencia." }
- }]
+  "telephone":"+525514861348",
+  "areaServed":["CDMX","Estado de México","Coacalco","Tlalnepantla"],
+  "priceRange":"$$",
+  "description":"Despacho jurídico en Coacalco. Penal 24/7, civil y familiar con atención inmediata y pagos flexibles."
 }
 </script>
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
 <style>
-body{margin:0;background:#0b0b0b;color:#eee;font-family:Inter}
-.top-banner{text-align:center;padding:10px;background:#c9a45a;color:#111;font-weight:700;letter-spacing:.2em}
-.brand{text-align:center;margin:24px 0}
-.brand h1{font-family:Playfair Display,serif;color:#c9a45a;letter-spacing:.12em;margin:0}
-.sub{letter-spacing:.2em;color:#ccc;margin-top:6px}
-.hero{background:url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1600&auto=format&fit=crop') center/cover;padding:80px 16px;text-align:center}
-.hero h2{font-family:Playfair Display,serif;font-size:32px;margin-bottom:10px}
-.cta a{display:inline-block;margin:6px;padding:14px 18px;border-radius:10px;text-decoration:none;font-weight:600}
-.wsp{background:#25D366;color:#04250f}
-.call{background:#222;color:#fff;border:1px solid #333}
-.section{max-width:1000px;margin:auto;padding:24px}
-.card{background:#121212;padding:16px;border-radius:12px;margin-bottom:14px}
-.map{width:100%;height:350px;border:0;border-radius:12px}
-.fab{position:fixed;right:16px;bottom:16px;background:#25D366;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;color:#04250f;font-weight:900;text-decoration:none}
-.faq-cta{margin-top:10px;display:inline-block;padding:10px 14px;border-radius:8px;background:#25D366;color:#04250f;text-decoration:none;font-weight:600}
+:root{--gold:#c9a45a;--gold2:#e2c27a;--bg:#0b0b0b;--card:#111;--muted:#b9b9b9;--wsp:#25D366}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#1a1a1a 0%,#0b0b0b 60%);color:#eee;font-family:Inter,system-ui}
+.top-banner{text-align:center;padding:10px;letter-spacing:.25em;text-transform:uppercase;font-size:12px;font-weight:600;color:#111;background:linear-gradient(90deg,var(--gold),var(--gold2))}
+.brand{text-align:center;margin:20px 0}
+.brand h1{font-family:"Playfair Display",serif;color:var(--gold);letter-spacing:.12em;margin:0;font-size:34px}
+.brand .sub{color:#cfcfcf;letter-spacing:.2em;font-size:12px}
+.hero{max-width:1000px;margin:18px auto;border-radius:18px;overflow:hidden;background:url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=1600&auto=format&fit=crop') center/cover;box-shadow:0 20px 50px rgba(0,0,0,.6)}
+.hero .overlay{background:linear-gradient(180deg,rgba(0,0,0,.75),rgba(0,0,0,.65));padding:28px;min-height:320px;display:flex;flex-direction:column;justify-content:flex-end;gap:14px}
+.hero h2{font-family:"Playfair Display",serif;font-size:30px}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.btn{border-radius:12px;padding:14px 18px;font-weight:600;border:none;cursor:pointer}
+.btn-wsp{background:var(--wsp);color:#04250f}
+.btn-call{background:#1f1f1f;color:#fff;border:1px solid #2a2a2a}
+.section{max-width:1000px;margin:auto;padding:24px 16px}
+.h2{font-family:"Playfair Display",serif;color:var(--gold);letter-spacing:.08em;margin:20px 0 10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:linear-gradient(180deg,#121212,#0f0f0f);border:1px solid #1f1f1f;border-radius:16px;padding:18px}
+.card h3{color:#f1e2b6;margin:0 0 6px}
+.video-wrap{border-radius:16px;overflow:hidden;border:1px solid #1f1f1f}
+.video-wrap iframe{width:100%;height:320px;border:0}
+.contact{display:grid;grid-template-columns:1.2fr .8fr;gap:14px}
+@media(max-width:860px){.contact{grid-template-columns:1fr}}
+.map iframe{width:100%;height:260px;border:0;border-radius:14px}
+.map-actions{margin-top:8px}
+.map-actions a{display:inline-block;padding:10px 14px;border-radius:10px;background:#1f1f1f;color:#fff;text-decoration:none;border:1px solid #2a2a2a}
+.fab{position:fixed;right:16px;bottom:18px;width:58px;height:58px;border-radius:50%;background:var(--wsp);display:grid;place-items:center;box-shadow:0 10px 24px rgba(0,0,0,.5);z-index:99;color:#04250f;font-weight:900;text-decoration:none}
+.note{max-width:1000px;margin:8px auto 80px;padding:0 16px;color:var(--muted);font-size:12px}
 </style>
 </head>
 
@@ -96,53 +90,61 @@ body{margin:0;background:#0b0b0b;color:#eee;font-family:Inter}
 </div>
 
 <section class="hero">
-  <h2>Abogado Penalista 24/7 en Coacalco y Tlalnepantla</h2>
-  <p>Divorcio exprés en Coacalco • Defensa penal urgente en CDMX y Estado de México</p>
-  <div class="cta">
-    <a data-event="click_whatsapp_penal" class="wsp" target="_blank" href="https://wa.me/525514861348?text=Hola,%20necesito%20un%20abogado%20penalista%20urgente%20en%20Coacalco">WhatsApp Penal Urgente</a>
-    <a data-event="click_whatsapp_divorcio" class="wsp" target="_blank" href="https://wa.me/525514861348?text=Hola,%20necesito%20un%20Divorcio%20Exprés%20en%20Coacalco">WhatsApp Divorcio Exprés</a>
-    <a data-event="click_llamada" class="call" href="tel:+525514861348">Llamar ahora</a>
+  <div class="overlay">
+    <h2>Abogado en Coacalco y Tlalnepantla — Atención inmediata</h2>
+    <p>Defensa penal 24/7 • Civil y familiar • Pagos flexibles</p>
+    <div class="cta">
+      <a href="https://wa.me/525514861348?text=Hola,%20necesito%20abogado%20penalista%2024/7%20en%20Coacalco" target="_blank"><button class="btn btn-wsp">WhatsApp Penal 24/7</button></a>
+      <a href="tel:+525514861348"><button class="btn btn-call">Llamar ahora</button></a>
+    </div>
   </div>
 </section>
 
 <section class="section">
-  <h2>Ubicación</h2>
-  <p>Bosques de Grosellos 1A, Coacalco de Berriozábal, Estado de México</p>
-  <iframe 
-    class="map"
-    loading="lazy"
-    referrerpolicy="no-referrer-when-downgrade"
-    src="https://www.google.com/maps?q=Bosques%20de%20Grosellos%201A%20Coacalco%20de%20Berriozabal%20Estado%20de%20Mexico&output=embed">
-  </iframe>
+  <div class="h2">Servicios Jurídicos</div>
+  <div class="cards">
+    <div class="card">
+      <h3>Derecho Penal</h3>
+      <p>Urgencias 24/7, audiencias iniciales, control de detención y amparos.</p>
+      <a class="btn btn-wsp" target="_blank" href="https://wa.me/525514861348?text=Necesito%20abogado%20penalista%20urgente%20en%20Coacalco">WhatsApp Penal</a>
+    </div>
+    <div class="card">
+      <h3>Derecho Familiar</h3>
+      <p>Divorcio, guarda y custodia, pensión alimenticia.</p>
+      <a class="btn btn-wsp" target="_blank" href="https://wa.me/525514861348?text=Necesito%20divorcio%20en%20Coacalco">WhatsApp Familiar</a>
+    </div>
+    <div class="card">
+      <h3>Derecho Civil</h3>
+      <p>Contratos, arrendamientos, cobros y juicios civiles.</p>
+      <a class="btn btn-wsp" target="_blank" href="https://wa.me/525514861348?text=Necesito%20asesoría%20civil%20en%20Coacalco">WhatsApp Civil</a>
+    </div>
+  </div>
+
+  <div class="h2">Mensaje del Abogado</div>
+  <div class="video-wrap">
+    <iframe loading="lazy" src="https://www.youtube.com/embed/5eCArIAZUtk" title="Mensaje del Abogado" allowfullscreen></iframe>
+  </div>
+
+  <div class="h2">Contacto y Ubicación</div>
+  <div class="contact">
+    <div class="card">
+      <p><strong>Tel/WhatsApp:</strong> +52 55 14 8613 48</p>
+      <p><strong>Cédula:</strong> 12680656</p>
+      <p><strong>Dirección:</strong> Bosques de Grosellos 1A, Coacalco de Berriozábal, Estado de México</p>
+      <a class="btn btn-wsp" target="_blank" href="https://wa.me/525514861348?text=Hola,%20quiero%20ubicación%20y%20cómo%20llegar%20al%20despacho">WhatsApp Ubicación</a>
+    </div>
+    <div class="map card">
+      <iframe loading="lazy" src="https://www.google.com/maps?q=Bosques%20de%20Grosellos%201A%20Coacalco%20de%20Berriozabal%20Estado%20de%20Mexico&output=embed"></iframe>
+      <div class="map-actions">
+        <a target="_blank" href="https://www.google.com/maps/search/?api=1&query=Bosques+de+Grosellos+1A+Coacalco+de+Berriozábal+Estado+de+México">Abrir en Google Maps</a>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section class="section">
-  <h2>Preguntas Frecuentes</h2>
+<div class="note">Atención inmediata. Información orientativa.</div>
 
-  <div class="card">
-    <strong>¿Cuánto tarda un divorcio incausado en Coacalco?</strong>
-    <p>De 2 a 4 meses dependiendo del juzgado.</p>
-    <a class="faq-cta" data-event="faq_divorcio" target="_blank"
-       href="https://wa.me/525514861348?text=Hola,%20quiero%20informes%20sobre%20Divorcio%20Exprés%20en%20Coacalco">Consultar por WhatsApp</a>
-  </div>
-
-  <div class="card">
-    <strong>¿Qué hacer si detienen a un familiar en Tlalnepantla?</strong>
-    <p>Contacta de inmediato a un abogado penalista 24/7 para la audiencia inicial.</p>
-    <a class="faq-cta" data-event="faq_penal" target="_blank"
-       href="https://wa.me/525514861348?text=Hola,%20detuvieron%20a%20un%20familiar%20en%20Tlalnepantla,%20necesito%20ayuda%20urgente">WhatsApp Penal Urgente</a>
-  </div>
-
-  <div class="card">
-    <strong>¿Cuánto cuesta un abogado penalista en Coacalco?</strong>
-    <p>Ofrecemos honorarios flexibles y planes de pago según tu caso.</p>
-    <a class="faq-cta" data-event="faq_costos" target="_blank"
-       href="https://wa.me/525514861348?text=Hola,%20quiero%20conocer%20costos%20y%20planes%20de%20pago%20para%20mi%20caso%20penal">Consultar costos por WhatsApp</a>
-  </div>
-
-</section>
-
-<a class="fab" href="https://wa.me/525514861348?text=Hola,%20vi%20su%20página%20y%20necesito%20asesoría%20legal" target="_blank">WA</a>
+<a class="fab" href="https://wa.me/525514861348" target="_blank">WA</a>
 
 </body>
 </html>
